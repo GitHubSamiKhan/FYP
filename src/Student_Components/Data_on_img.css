@@ -1,0 +1,141 @@
+/* /////////////////////////// */
+.image-container {
+    position: relative;
+    width: 100%;
+    /* Ensure the image container takes full width */
+    height: auto;
+    /* Allow height to adjust based on image */
+    overflow: hidden;
+    /* Hide overflow content within the container */
+}
+
+.img-content {
+    width: 100%;
+    /* Ensure the image fills the container */
+    height: auto;
+    /* Allow height to adjust based on image */
+    display: block;
+    /* Ensure the image behaves as a block element */
+    object-fit: cover;
+    /* Maintain aspect ratio and cover the container */
+}
+
+/* CSS for gradient overlay */
+/* .sami::before {
+    content: '';
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #667EEA, rgba(122, 144, 168, 0.5));
+   
+    z-index: 1;
+   
+} */
+
+.data-container {
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    /* Center the container using translation */
+    text-align: center;
+    /* Center-align text inside the container */
+    padding: 20px;
+    /* Semi-transparent background */
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    /* Semi-transparent background */
+    border-radius: 8px;
+    /* Rounded corners */
+    z-index: 2;
+    /* Place container above the gradient overlay */
+
+    /* Optional: Styling for text elements */
+    color: white;
+}
+
+.data-container h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.data-container p {
+    font-size: 16px;
+    margin-bottom: 8px;
+}
+
+/* //////////////////scroller card */
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center content horizontally */
+}
+
+.image-container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.sami {
+    position: relative;
+}
+
+.img-content {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.data-container {
+    text-align: center;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+/* .btn {
+    margin-top: 1px;
+} */
+
+/* Style for ScrollerCard component */
+.scroller-card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    flex: 0 0 30%;
+    /* Adjust as needed to fit two cards in a row */
+    margin-right: 20px;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.cards {
+    display: flex;
+    width: 90%;
+    transform: translate(20%, 10%);
+
+}

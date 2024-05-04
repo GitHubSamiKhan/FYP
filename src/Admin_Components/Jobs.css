@@ -1,0 +1,5 @@
+.container-fluid {
+    width: 75% !important;
+    /* height: 10rem !important; */
+    transform: translate(10%, 10%);
+}

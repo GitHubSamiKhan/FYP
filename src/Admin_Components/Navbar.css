@@ -1,0 +1,96 @@
+/* //////////NAVBAR/////////// */
+.navbar {
+
+    left: 19% !important;
+    top: 0% !important;
+    position: fixed !important;
+    background-color: var(--blue);
+    color: #f8f9fa;
+    width: 81%;
+    height: 3.888rem !important;
+    float: right;
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.nav-left .project-name {
+    transform: translate(12%, 0%) !important;
+}
+
+/* Additional CSS targeting specific elements within .navbar */
+.navbar .container-fluid {
+    margin-top: 0.5rem !important;
+    /* Adjust top margin */
+    margin-bottom: 0.5rem !important;
+    /* Adjust bottom margin */
+}
+
+.navbar .nav-left {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.navbar .nav-right {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 1rem;
+}
+
+.navbar .nav-right .icon {
+    margin-right: 0.5rem;
+    /* Adjust right margin between icons */
+}
+
+.navbar .nav-right .icon:last-child {
+    margin-right: 0;
+    /* Remove margin from the last icon */
+}
+
+.navbar .nav-right .icon span {
+    font-weight: normal;
+}
+
+/* Styling for specific icons */
+.navbar .icon svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+/* Styling for the text element */
+
+
+/* Inline styles to override default Bootstrap styles */
+.navbar {
+    /* justify-content: space-around !important; */
+    background-color: var(--blue);
+    /* Your custom background color */
+    color: #f8f9fa;
+    /* Text color */
+    width: 81%;
+    /* Adjust the width */
+    height: 3.888rem !important;
+    /* Adjust the height */
+}
+
+/* Ensure specific styles for mobile devices */
+@media (max-width: 768px) {
+    .navbar {
+        width: 100%;
+        /* Adjust for smaller screens */
+    }
+}
+
+
+/* ////////// END NAVBAR/////////// */

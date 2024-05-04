@@ -1,0 +1,24 @@
+/* .main-conatiner {
+    width: 80% !important;
+    transform: translate(5%, 20%) !important;
+} */
+.container-fluid {
+    width: 90% !important;
+    transform: translate(0%, 20%) !important;
+}
+
+.dt-layout-row {
+    display: flex !important;
+    justify-content: space-evenly !important;
+    width: 100% !important;
+}
+
+.table-striped .table-bordered .col-md-12 {
+    width: 100% !important;
+    padding: 5rem !important;
+}
+
+.dt-layout-cell {
+    justify-content: center !important;
+    width: 100% !important;
+}

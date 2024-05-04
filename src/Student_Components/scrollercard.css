@@ -1,0 +1,65 @@
+/* Default styles */
+.card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 15rem;
+    /* Set width for desktop */
+    height: 20rem;
+    /* Set height for desktop */
+    overflow: hidden;
+    /* float: calc(); */
+}
+
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-body {
+    padding: 10px;
+    height: 100%;
+    /* Full height of the card body */
+    overflow: hidden;
+    /* Hide overflow outside the card body */
+}
+
+.event-container {
+    height: 100%;
+    /* Set height for scrolling container */
+    overflow: hidden;
+    /* Hide overflow content */
+}
+
+.event {
+    margin-bottom: 10px;
+}
+
+.event {
+    animation: scroll-up 10s linear infinite;
+}
+
+@keyframes scroll-up {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 576px) {
+    .card {
+        width: 100%;
+        /* Full width for mobile */
+        height: auto;
+        /* Auto height for mobile */
+    }
+}
